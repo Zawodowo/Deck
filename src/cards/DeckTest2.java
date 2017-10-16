@@ -34,6 +34,11 @@ public class DeckTest2 {
     	} while(cardA != cardB);
     	deck.sortDeck();
     }
+
+    @Test
+    public void ShouldReturnATopCardWhenFirstCardExecuted() {
+        assertNotNull(deck.firstCard());
+    }
     
     @Ignore("not ready") public void something() {
     	System.out.println("Soon.");
