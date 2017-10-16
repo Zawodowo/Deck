@@ -41,8 +41,6 @@ public class DeckTest2 {
     
     @After
     public void runAfterTestMethod() {
-        System.out.println("@After - runAfterTestMethod");
+        System.out.println("@After-runAfterTestMethod");
     }
-    
-    
 }
