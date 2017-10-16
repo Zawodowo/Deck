@@ -1,7 +1,6 @@
 package cards;
 
 import static org.junit.Assert.assertNotNull;
-//import static org.junit.Assert.assertEquals;
 import org.junit.*;
 
 public class DeckTest2 {
